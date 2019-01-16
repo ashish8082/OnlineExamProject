@@ -1,0 +1,87 @@
+#container {
+    margin-top: 90px;
+    height: 500px;
+    position: absolute;
+
+}
+
+td {
+    padding: 10px;
+}
+
+.scol {
+    width: 250px;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+
+}
+
+#uploadbtn {
+    width: 150px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 240px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #111111;
+    background-color: ghostwhite;
+    font-family: "Franklin Gothic Medium";
+
+}
+
+input[type="submit"] {
+
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border: 1px solid #ccc;
+    margin-left: 2px;
+    margin-right: 8px;
+    font-family: Comic Sans MS;
+}
+
+input[type="submit"]:hover {
+
+    width: 25%;
+    border: 2px outset aqua;
+}
+
+table, td {
+
+    border: 2px solid #999999;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    font-family: "Comic Sans MS";
+    box-shadow: 1px 1px 1px 1px;
+
+}
+
+table:hover, td:hover {
+
+    border-color: transparent;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.img1 {
+
+    height: 100px;
+    width: 200px;
+    background: url('3.png');
+}
+
+#img2 {
+
+    height: 100px;
+    width: 200px;
+    background: url('22.png');
+}
+

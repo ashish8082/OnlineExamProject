@@ -1,0 +1,67 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+
+
+*					{  padding: 0; }
+body				{  margin-top: 1%;  }
+
+#page-wrap		    {  width: 500px; height: 12%;
+    font: 18px bold Franklin Gothic medium;
+
+
+
+    margin: 0 0 0 450px;
+
+    left: 50%;
+}
+
+
+
+
+h1                  { margin: 25px 0; font: 14px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
+
+#quiz input {
+    vertical-align: middle;
+
+}
+
+#quiz ol {
+   margin: 0 0 10px 20px;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: #666;
+}
+
+#results {
+
+
+    font-size: 44px;
+    font-family: "Franklin Gothic Medium";
+}
+
+hr{
+
+  width: 500px;
+}
+
+
+
+
+.img{
+    height: 200px;
+    width: 200px;
+    background: url('12.gif');
+}

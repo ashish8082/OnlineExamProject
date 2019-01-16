@@ -1,0 +1,78 @@
+/* Bordered form */
+
+form {
+
+    margin-top: 3%;
+    border: 2px solid #999999;
+    height: 55%;
+    width: 50%;
+    border-radius: 20px;
+    border-bottom: 2px inset #CCCCCC;
+    padding-bottom: 1cm;
+    background-color: rgba(212, 255, 200, 0.89);
+    font-family: "Comic Sans MS";
+    color:slategrey;
+    box-shadow:2px 2px 2px 2px;
+
+
+
+
+}
+
+form:hover {
+    border-color: aqua;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+label {
+
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    color: #111111;
+    font-family: Comic Sans MS;
+    font-size: 200%;
+}
+
+/* Full-width inputs */
+input[type=password], input[type=email],input[type=text] {
+
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px inset #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Franklin Gothic Medium";
+    box-shadow:2px 2px 1px 0  #666666;
+}
+
+/* Set a style for all buttons */
+input[type=submit], button {
+    background-color: #333333;
+    position: absolute;
+    border-radius: 4.5px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-left: -56px;
+    cursor: pointer;
+    width: 10%;
+    border: 1px solid #ccc;
+    margin-right: -30px;
+}
+
+input[type=email]:hover, input[type=password]:hover, input[type=submit]:hover {
+
+    border: 2px inset aqua;
+
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    background: url('2.png');
+    border: 2px outset darkslategrey;
+}
